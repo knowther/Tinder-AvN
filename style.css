@@ -114,18 +114,6 @@ body{
 
 /* PC */
 @media(min-width: 1025px){
-    .photo {
-		width: 367px;
-		height: 684px;
-	}
-
-	.actions {
-		flex: initial;
-	}
-
-	.photo-and-actions {
-		justify-content: center;
-	}
     .navbar{
         width: 400px;
         margin: auto;
@@ -134,3 +122,20 @@ body{
     }
 }
 
+/* DIV CHAT */
+
+.chat{
+    margin-top: 100px;
+    margin-right: 50%;
+    height: calc(100vh - 44px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.chat img{
+    max-width: 100px;
+    max-height: 100px;
+   border-radius: 50%;
+}
