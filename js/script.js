@@ -1,26 +1,38 @@
 function tabNav(){
     const html = {
-        links: document.querySelector(".navbar"),
-        contents: document.querySelector(".content"),
+        links: [...document.querySelector(".navbar").children],
+        contents: [...document.querySelector(".content").children],
     }
     
     function hideTabContent(){
-        document.getElementById("chatting").style.display = "none"
-        document.getElementById("profile").style.display = "none"
-    
+       html.contents.forEach(section => {
+           section.style.display = "none"
+       })
     }
     function removeActiveClass(){
     
     }
-    function showCurrentTab(){
-    
+    function showCurrentTab(id){
+        console.log("show current: " + id)
+        const tabContent = document.querySelector("#" + id)
+        tabContent.style.display = "flex"
+    }
+    function selectTab(event){
+        hideTabContent();
+        const target = event.currentTarget
+        showCurrentTab(target.dataset.id)
+        
+
     }
     function listenForChange(){
-    
+        html.links.forEach(tab => {
+            tab.addEventListener("click", selectTab)
+        })
     }
     function init(){
         hideTabContent()
         listenForChange();
+        document.getElementById("home-main").style.display = "flex"
     }
     return {
         init

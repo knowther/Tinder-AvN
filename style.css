@@ -26,6 +26,12 @@ body{
 }
 
 /* photo and actions */
+.mainmenu{
+    height: calc(100vh - 44px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .photo-and-actions{
     height: calc(100vh - 44px);
     display: flex;

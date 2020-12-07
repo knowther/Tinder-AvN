@@ -15,3 +15,4 @@
 - Ao dar like na Avenade, abrir uma janela "It's a Match" e isso acontecendo habilitará o chat com a avenade.
 - Aparecer aviso ao recusar o perfil
 
+**Obs:** Conteúdo que usei de auxílio : https://www.youtube.com/watch?v=sxPEmuW7aUg&t
