@@ -11,12 +11,13 @@ rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <i id="tinder-icon" class="fas fa-fire" onclick="chat_tinder()"></i>
-        <i onclick="trocarchat()" id="chat-icon" class="fas fa-comments"></i>
-        <i class="fas fa-user"></i>
+        <i data-id="fire-menu"class="fas fa-fire"></i>
+        <i data-id="chat-menu"   class="fas fa-comments"></i>
+        <i data-id="profile-menu" class="fas fa-user"></i>
     </nav>
-
-<div id="main" class="photo-and-actions">
+    <div class="content">
+    <section id="home-main">
+<div class="photo-and-actions">
     <div class="photo">
         <div class="photo-text">
             <div class="photo-nome-idade">
@@ -41,14 +42,15 @@ rel="stylesheet">
         </div>
          </div>
 </div>
+</section>
+<section id="chatting">
 
-<div id="chats" class="chat">
-    <div>
-        <img src="./image/avanade_logo_1.jpg"></img>
-    </div>
+</section>
+<section id="profile">
 
+</section>
 </div>
-    <script src="./js/script.js"></script>
+    <script type="text/javascript"" src="./js/script.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/6e098ddc17.js" 
     crossorigin="anonymous"></script>

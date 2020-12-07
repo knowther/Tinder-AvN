@@ -1,12 +1,32 @@
-function trocarchat(){
-    document.getElementById("main").style.display = "none";
-    document.getElementById("chats").style.display = "flex";
-    document.getElementById("chat-icon").style.color = "#1be4a1";
-    document.getElementById("tinder-icon").style.color = "#dadfe6";
+function tabNav(){
+    const html = {
+        links: document.querySelector(".navbar"),
+        contents: document.querySelector(".content"),
+    }
+    
+    function hideTabContent(){
+        document.getElementById("chatting").style.display = "none"
+        document.getElementById("profile").style.display = "none"
+    
+    }
+    function removeActiveClass(){
+    
+    }
+    function showCurrentTab(){
+    
+    }
+    function listenForChange(){
+    
+    }
+    function init(){
+        hideTabContent()
+        listenForChange();
+    }
+    return {
+        init
+    }
 }
-function chat_tinder(){
-    document.getElementById("chats").style.display = "none";
-    document.getElementById("main").style.display = "flex";
-    document.getElementById("chat-icon").style.color = "#dadfe6";
-    document.getElementById("tinder-icon").style.color = "#fe466d";
-}
+window.addEventListener("load", () =>{
+    const tabNavgation = tabNav();
+    tabNavgation.init()
+})
