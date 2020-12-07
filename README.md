@@ -13,4 +13,5 @@
 ###### Updates previstos  :eyeglasses:
 
 - Ao dar like na Avenade, abrir uma janela "It's a Match" e isso acontecendo habilitará o chat com a avenade.
+- Aparecer aviso ao recusar o perfil
 
