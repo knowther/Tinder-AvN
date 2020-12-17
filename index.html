@@ -13,16 +13,20 @@ rel="stylesheet">
     <!--Parte responsável por navegação entre as DIVS-->
     <nav class="navbar">
         <div data-id="home-main" class="custom-radio-tinder">
-        <input data-id="home-main" id="custom-radio1" value="0" name="div-naivigation"type="radio" checked="checked"></input>
+        <input data-id="home-main" id="custom-radio1" value="0" name="div-navigation"type="radio" checked="checked"></input>
         <label for="custom-radio1" id="tinder-label" class="fas fa-fire"></label>
         </div>
        <!-- <button data-id="home-main"class="fas fa-fire"></button>-->
        <div data-id="chatting" class="custom-radio-chatting">
-        <input type="radio" name="div-naivigation" value="1" data-id="chatting" id="custom-radio2"></input>
+        <input type="radio" name="div-navigation" value="1" data-id="chatting" id="custom-radio2"></input>
         <!--class="fas fa-comments"-->
         <label for="custom-radio2" id="chatting-label" class="fas fa-comments"></label>
         </div>
-        <button data-id="profile" class="fas fa-user"></button>
+        <div class="custom-radio-profile" data-id="profile">
+        <input type="radio" name="div-navigation" value="2" data-id="profile" id="custom-radio3"></input>
+        <label for="custom-radio3" id="profile-label" class="fas fa-user"></label>
+        <!-- fas fa-user -->
+        </div>
     </nav>
     <div class="content">
     <section id="home-main" class="mainmenu">

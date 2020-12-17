@@ -1,0 +1,65 @@
+[33mcommit df789eb3639a0f0fd2bfafd1670e1ac9c43f26ca[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Knowther <parentejohnny9@gmail.com>
+Date:   Thu Dec 17 17:57:36 2020 -0300
+
+    Sistema de navegação funcional e alterando cores de acordo com a DIV atual
+
+[33mcommit c566a9110cfc1b30cb449457ce050fcef26ce3a0[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: knowther <johnnywesley.contato@outlook.com>
+Date:   Mon Dec 7 16:32:37 2020 -0300
+
+    agora a estrutura de trocar tela funciona de uma forma melhor
+
+[33mcommit 3fddd39e924b2c7afacd52715bd6291d2626215a[m
+Author: knowther <johnnywesley.contato@outlook.com>
+Date:   Mon Dec 7 15:38:54 2020 -0300
+
+    Refazendo código JS, aprendendo a fazer Toggle nas nav com JS
+
+[33mcommit a689c55b1464e6575245f7f7f5086be79e315a39[m
+Author: Johnny Wesley <johnnywesley.contato@outlook.com>
+Date:   Sun Dec 6 23:41:46 2020 -0300
+
+    Update README.md
+
+[33mcommit ca95ba67c1e9c891372d85c8eafa71edae91228d[m
+Author: knowther <johnnywesley.contato@outlook.com>
+Date:   Fri Dec 4 00:44:54 2020 -0300
+
+    adicionado README
+
+[33mcommit 1ed8697a87ea62058008036a974e1e88686f9375[m
+Author: knowther <johnnywesley.contato@outlook.com>
+Date:   Thu Dec 3 23:27:11 2020 -0300
+
+    agora o display do chat não aparece mais na tela inicial, só quando chamado
+
+[33mcommit aadb6eb04c1fff5f1f2d156f1428f348ac97f4c1[m
+Author: knowther <johnnywesley.contato@outlook.com>
+Date:   Thu Dec 3 01:04:01 2020 -0300
+
+    agora do menu chat volta pro principal
+
+[33mcommit bdd8589395c44d613ce2f832621515b3325b6289[m
+Author: knowther <johnnywesley.contato@outlook.com>
+Date:   Thu Dec 3 00:58:10 2020 -0300
+
+    Agora ao clickar no botão chat da nav vai mudar pra tela de chat que ainda está em desenvolvimento
+
+[33mcommit 81efb6762eb10f345ecb238575f7623922604dd2[m
+Author: knowther <johnnywesley.contato@outlook.com>
+Date:   Tue Dec 1 19:13:10 2020 -0300
+
+    corrigido texto no modo desktop
+
+[33mcommit 9c21d4929e5ff8744a82b3d7d578d0f4363a395a[m
+Author: knowther <johnnywesley.contato@outlook.com>
+Date:   Tue Dec 1 18:40:18 2020 -0300
+
+    Estrutura clone tinder criada
+
+[33mcommit 3440baeefb978615d8466b273652a45554df5b83[m
+Author: knowther <johnnywesley.contato@outlook.com>
+Date:   Tue Dec 1 17:13:31 2020 -0300
+
+    Base inicial criada

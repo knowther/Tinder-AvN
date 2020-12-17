@@ -22,7 +22,7 @@ body{
   color:  #cc3b5b;
 }
 #tinder-label{
-    font-size: 20px;
+    font-size: 25px;
     color:  #dadfe6;
 }
 /* até aqui */
@@ -39,7 +39,25 @@ body{
   color:  #19af7d;
 }
 #chatting-label{
-    font-size: 20px;
+    font-size: 25px;
+    color:  #dadfe6;
+}
+
+/* até aqui */
+
+/* Parte responsável pela estilização do RADIO PROFILE*/
+#custom-radio3{
+    display: none;
+}
+.custom-radio-profile input + label::before{
+    content: "class="fas fa-fire"";
+    display: inline-block;
+}
+.custom-radio-profile input:checked + label::before{
+  color:  #2797d8;
+}
+#profile-label{
+    font-size: 25px;
     color:  #dadfe6;
 }
 
