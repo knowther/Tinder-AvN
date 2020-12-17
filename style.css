@@ -10,6 +10,40 @@ body{
 }
 
 /* navbar */
+/* Parte responsável pela estilização do RADIO TINDER */
+#custom-radio1{
+    display: none;
+}
+.custom-radio-tinder input + label::before{
+    content: "class="fas fa-fire"";
+    display: inline-block;
+}
+.custom-radio-tinder input:checked + label::before{
+  color:  #cc3b5b;
+}
+#tinder-label{
+    font-size: 20px;
+    color:  #dadfe6;
+}
+/* até aqui */
+
+/* Parte responsável pela estilização do RADIO CHATTING */
+#custom-radio2{
+    display: none;
+}
+.custom-radio-chatting input + label::before{
+    content: "class="fas fa-fire"";
+    display: inline-block;
+}
+.custom-radio-chatting input:checked + label::before{
+  color:  #19af7d;
+}
+#chatting-label{
+    font-size: 20px;
+    color:  #dadfe6;
+}
+
+/* até aqui */
 .navbar{
     display: flex;
     width: 100%;

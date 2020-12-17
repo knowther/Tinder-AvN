@@ -10,7 +10,9 @@ function tabNav(){
        })
     }
     function removeActiveClass(){
-    
+        html.links.forEach(tab =>{
+            tab.className = tab.className.replace(" active", "")
+        })
     }
     function showCurrentTab(id){
         console.log("show current: " + id)
@@ -19,8 +21,10 @@ function tabNav(){
     }
     function selectTab(event){
         hideTabContent();
+        removeActiveClass();
         const target = event.currentTarget
         showCurrentTab(target.dataset.id)
+
         
 
     }
